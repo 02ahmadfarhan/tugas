@@ -8,18 +8,14 @@ int main(){
     cin >> uang;
 
     int p1000 = uang / 1000;
-    uang % 1000;
+    
+    int p500 = (uang / 500) % 2 ;
 
-    int p500 = uang / 500 ; // 250
-   // uang % 500;
+    int p100 = (uang / 100) % 5;
+    
+    int p50 = (uang / 50) % 2;
 
-    int p100 = uang / 100;
-    uang % 100;
-
-    int p50 = uang / 50;
-    uang % 50;
-
-    int p25 = uang / 25;
+    int p25 = (uang / 25) % 2;
 
     cout << "1000 = " << p1000 << endl;
     cout << "500 = " << p500 << endl;
