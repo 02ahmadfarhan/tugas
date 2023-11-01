@@ -17,6 +17,13 @@ int main(){
 
     int p25 = (uang / 25) % 2;
 
+// rumus alya
+    // int u1000 = 25 * 40 / 500;
+    // int u500 = 25 * 20 / 500;
+    // int u100 = 25 * 4 / 50;
+    // int u50 = 25 * 2 / 50;
+    // int u25 = 25 * 1 / 25;
+
     cout << "1000 = " << p1000 << endl;
     cout << "500 = " << p500 << endl;
     cout << "100 = " << p100 << endl;
