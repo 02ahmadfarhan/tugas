@@ -13,9 +13,27 @@ int main(){
     cout << "Pilih paket yang kamu mau : ";
     cin >> nomor;
 
-    if(nomor == 1){
-        cout << "Hello EveryOne" << endl;
-    }else{
-        cout << "Hello There" << endl;
+    switch (nomor)
+    {
+    case 1:
+        /* deskripsi */
+        cout << " ##### Menu No 1 ##### \n";
+        namaPaket = "Paket VIP";
+        harga = 400000;
+        cout << "Nama Paket : " << namaPaket << endl;
+        cout << "Harga Paket : Rp. " << harga << endl;
+        cout << "Banyak Paket : "; cin >> banyak;
+        total = banyak * harga;
+        cout << "Total Bayar : Rp. " << total << endl;
+        pajak = total * 0.1;
+        cout << "Pajak PPN (10%) : Rp. " << pajak << endl;
+        jumlah = total + pajak;
+        cout << "Jumlah Bayar : Rp. " << jumlah << endl;
+        cout << " ===== TERIMAKASIH ===== " << endl;
+        break;
+    
+    default:
+        cout << "Tidak Ada!!" << endl; 
+        break;
     }
 }
