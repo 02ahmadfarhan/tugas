@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     string namaPaket;
     int nomor,harga,banyak,total,pajak,jumlah;
-
+    
     cout << "Pilih Menu Minuman di Udin Coffee " << endl;
     cout << "1. Paket VIP\n";
     cout << "2. Paket Spesial\n";
