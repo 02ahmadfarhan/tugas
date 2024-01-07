@@ -10,6 +10,12 @@ int main(){
     cout << "2. Paket Spesial\n";
     cout << "3. Paket Super" << endl;
 
-    cout << "Pilih paket yang kamu mau : "; cin >> nomor;
-    
+    cout << "Pilih paket yang kamu mau : ";
+    cin >> nomor;
+
+    if(nomor == 1){
+        cout << "Hello EveryOne" << endl;
+    }else{
+        cout << "Hello There" << endl;
+    }
 }
